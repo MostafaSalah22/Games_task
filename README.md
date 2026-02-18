@@ -3,6 +3,13 @@
 Android app that lists video games by genre and shows game details using the [RAWG API](https://rawg.io/apidocs).
 
 ---
+## Setup
+
+1. Clone the repo.
+2. Add `RAWG_API_KEY=your_key` to `local.properties` (get a key at [RAWG](https://rawg.io/apidocs)).
+3. Sync Gradle and run on a device or emulator (min SDK 26).
+
+   
 ### Tech stack
 
 - Kotlin 2.2.21, Jetpack Compose, Material 3.
@@ -28,8 +35,8 @@ Android app that lists video games by genre and shows game details using the [RA
 - API key in `local.properties`; no key = app won’t load data.
 ---
 
-## Setup
+## Demo Video
 
-1. Clone the repo.
-2. Add `RAWG_API_KEY=your_key` to `local.properties` (get a key at [RAWG](https://rawg.io/apidocs)).
-3. Sync Gradle and run on a device or emulator (min SDK 26).
+https://github.com/user-attachments/assets/a377154b-d5ec-4249-bac2-c6a7b60e2114
+
+
